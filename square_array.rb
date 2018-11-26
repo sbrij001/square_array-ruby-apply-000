@@ -10,6 +10,7 @@
 #end
 
 def square_array(array)
-  new_arr = array.collect {|ele| ele * ele}
-  return new_arr
+  new_arr = array.collect do |ele|
+    ele * ele
+  end
 end
