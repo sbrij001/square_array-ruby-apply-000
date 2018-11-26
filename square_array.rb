@@ -9,6 +9,6 @@
 #  return squared
 #end
 
-def sqaure_array(array)
+def square_array(array)
   array.collect {|ele| ele ** 2}
 end
