@@ -2,5 +2,8 @@
 #to sqaure something us **
 
 def square_array(array)
-  array.select {|ele| ele ** ele}
+  array.each do |ele|
+  squared = ele ** 2
+  end
+  return squared
 end
