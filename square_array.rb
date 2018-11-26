@@ -8,9 +8,3 @@
 #  end
 #  return squared
 #end
-
-def square_array(array)
-  square_array.collect do |ele|
-  ele * ele
-  end
-end
